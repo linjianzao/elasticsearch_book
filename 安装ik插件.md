@@ -28,6 +28,23 @@ index:
 <pre>
 curl -XPUT http://localhost:9200/index
 
+curl -XPOST http://localhost:9200/index/fulltext/_mapping -d'
+{
+    "fulltext": {
+             "_all": {
+            "analyzer": "ik"
+        },
+        "properties": {
+            "content": {
+                "type" : "string",
+                "boost" : 8.0,
+                "term_vector" : "with_positions_offsets",
+                "analyzer" : "ik",
+                "include_in_all" : true
+            }
+        }
+    }
+}'
 
 </pre>
 
