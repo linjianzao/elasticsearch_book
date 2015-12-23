@@ -5,7 +5,7 @@
 cd elasticsearch-analysis-ik
 mvn compile
 mvn package
-拷贝elasticsearch-analysis-ik/target/releases/elasticsearch-analysis-ik-xxx-jar-with-dependencies.jar 到ES_HOME/plugins/plugins/analysis-ik,如果没有这个文件夹就手动创建
+拷贝elasticsearch-analysis-ik/target/releases/elasticsearch-analysis-ik-xxx-jar-with-dependencies.jar 到ES_HOME/plugins/analysis-ik,如果没有这个文件夹就手动创建
 
 配置elasticsearch-1.7.2/config/elasticsearch.yml,加入:
 <code>
