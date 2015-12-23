@@ -23,8 +23,10 @@ index:
           use_smart: true
 </code>
 </pre>
+
 重启:使用之前的管理插件<a target="_blank" href="https://github.com/elastic/elasticsearch-servicewrapper">elasticsearch-servicewrapper</a>重启
-测试:
+
+<h3>测试:</h3>
 <pre>
 curl -XPUT http://localhost:9200/index
 
