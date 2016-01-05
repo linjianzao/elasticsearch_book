@@ -7,7 +7,7 @@ ES使用说明，基于es1.7.2版本和ik1.4.1 <br>
 #目录
 * 1. <a target="_blank"  href="入门.md">入门</a>
 * 2. <a target="_blank" href="安装ik插件.md">安装ik插件</a>
-* 3. 配置解析 
+* 3. <a target="_blank" href="配置解析_settings.md">配置解析_settings</a>
  - 3.0. <a target="_blank" href="settings 设置.md">settings 设置</a>
  - 3.1. <a target="_blank"  href="Mapping字段映射.md">Mapping 字段映射</a>
  - 3.2. Analysis 字段如何解析
