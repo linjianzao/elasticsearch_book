@@ -1,8 +1,6 @@
-<h3>分词器(Tokenizers)<h3>
-<pre>
-一个解析器必须有一个分词器。分词器将字符串分解成一个个单独的词条
-比如使用standard分词器或者ik分词器来划分词条
-keyword分词器，它不会进行任何分词，直接原样输出。
-whitespace分词器则只通过对空白字符进行划分来得到词条。
-pattern分词器则根据正则表达式来进行分词。
+<h3词条过滤器(Token Filter)</h3> 
+<pre>在分词后，得到的词条流(Token Stream)会按照顺序被传入到指定的词条过滤器中。
+词条过滤器能够修改，增加或者删除词条
+ascii_folding词条过滤器则会移除变音符号(Diacritics)，将类似于très的词条转换成tres。
+ngram词条过滤器和edge_ngram词条过滤器会产生适用于部分匹配(Partial Matching)或者自动完成(Autocomplete)的词条。
 </pre>
