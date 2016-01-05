@@ -11,8 +11,8 @@ ES使用说明，基于es1.7.2版本和ik1.4.1 <br>
  - 2.1. <a target="_blank"  href="Mapping字段映射.md">Mapping 字段映射</a>
  - 2.2. Analysis 字段如何解析
  - 2.3. Analyzers
-    - 2.3.1. Tokenizers
-    - 2.3.2. Token Filters
-    - 2.3.3. Character Filters
+    - 2.3.1. <a target="_blank" href="Tokenizers.md">Tokenizers</a>
+    - 2.3.2. <a target="_blank" href="Token Filters.md">Token Filters</a>
+    - 2.3.3. <a target="_blank" href="Character Filters.md">Character Filters</a>
 * 3. Search 搜索
 
